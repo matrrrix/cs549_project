@@ -16,6 +16,7 @@ Our group noticed how sentiment analysis is usually implying either a positive a
 Hugging Face is an open-source machine learning platform that, among other tools, provides access to datasets and models.
 
 The Hugging Face dataset from user dalopeza98 titled isear-cleaned-dataset provided organized text and labels relating to the ISEAR project.
+https://huggingface.co/datasets/dalopeza98/isear-cleaned-dataset
 
 The ISEAR project was an effort from psychologists around the globe in the 1990s to survey student respondents on situations in which they had experienced 7 major emotions.
 
@@ -30,6 +31,7 @@ Transformer Architecture High level overview:
     - Embedded vectors are then utilized to predict next likely tokens
 
 google-bert/bert-base-uncased on Hugging Face
+https://huggingface.co/google-bert/bert-base-uncased
 
 Our course of action was to fine-tune the BERT model with respect to the ISEAR dataset containing 7 classes. 
 
