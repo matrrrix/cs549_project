@@ -30,7 +30,7 @@ Transformer Architecture High level overview:
     - Tokens are converted into embedded vectors
     - Embedded vectors are then utilized to predict next likely tokens
 
-google-bert/bert-base-uncased on Hugging Face
+google-bert/bert-base-uncased on Hugging Face.
 https://huggingface.co/google-bert/bert-base-uncased
 
 Our course of action was to fine-tune the BERT model with respect to the ISEAR dataset containing 7 classes. 
